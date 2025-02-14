@@ -1,0 +1,14 @@
+{
+  "name": "search-amazon-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Janaina Matos",
+  "license": "ISC",
+  "description": "Questao 1: Busca no site amazon.com.br",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
