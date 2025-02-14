@@ -20,9 +20,9 @@ Antes de rodar os testes, certifique-se de ter as seguintes ferramentas instalad
 2. **Instale as Dependências**
 
 Navegue até o diretório do projeto clonado e instale as dependências do Node.js necessárias para o Cypress:
-
-cd nome-do-diretorio
-npm install
+   ```bash
+   cd nome-do-diretorio
+   npm install
 
 3. **Executando os Testes**
 
@@ -30,24 +30,24 @@ Você pode rodar os testes em modo interativo ou em modo headless (sem interface
 
 Modo Interativo
 Este modo abre o Cypress Test Runner, onde você pode ver os testes acontecendo em tempo real.
-
-npx cypress open
+   ```bash
+   npx cypress open
 
 Aguarde o Cypress iniciar e, quando a janela abrir, clique no teste que você deseja executar.
 
 
 Modo Headless
 Este modo executa os testes no terminal. É ideal para integrações contínuas e automatizadas.
-
-npx cypress run
+   ```bash
+   npx cypress run
 
 Estrutura do Projeto
 O projeto é organizado da seguinte forma:
 
-cypress/e2e/: Contém os arquivos de teste especificados.
-cypress/fixtures/: Usado para armazenar dados de testes (caso aplicável).
-cypress/plugins/: Plugins do Cypress.
-cypress/support/: Comportamentos globais e configurações.
+   cypress/e2e/: Contém os arquivos de teste especificados.
+   cypress/fixtures/: Usado para armazenar dados de testes (caso aplicável).
+   cypress/plugins/: Plugins do Cypress.
+   cypress/support/: Comportamentos globais e configurações.
 
 Contribuições
 Sinta-se à vontade para contribuir com o projeto!
